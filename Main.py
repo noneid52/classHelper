@@ -197,11 +197,6 @@ app.geometry("500x400")
 mainLabel = tk.Label(app, text="수업 도우미!", font=("맑은 고딕", 30, "bold"))
 mainLabel.pack(pady=30)
 
-# Copyright Title
-copyrightLabel = tk.Label(app, text="ⓒ 2024. Kim Dongu All rights reserved.", font=("맑은 고딕", 9))
-copyrightLabel.pack(side="bottom", pady=0)
-
-
 # Pick Food Button
 foodStartButton = tk.Button(app, text="랜덤 음식 뽑기", command=pickRandomFoodMain, font=("맑은 고딕", 12), activeforeground="red", relief="raised")
 foodStartButton.pack(pady=10)
